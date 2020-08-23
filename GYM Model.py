@@ -16,7 +16,7 @@ del df['Class']
 label_encoder = LabelEncoder()
 df['Prediction'] = label_encoder.fit_transform(df['Prediction'])
 
-
+#split the data
 X = df.iloc[:,:-1]
 y = df.iloc[:,-1]
 
