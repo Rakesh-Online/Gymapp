@@ -4,7 +4,7 @@ Created on Sat Jun  8 17:06:01 2019
 
 @author: prithvi
 """
-#import all the librariess
+#import all the libraries
 import flask
 from flask import Flask, request , jsonify, render_template
 #import jinja2
